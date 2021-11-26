@@ -13,16 +13,17 @@
     />
     <link rel="stylesheet" href="static/css/style.css">
 </head>
-<body>
+<!--This class will apply color to the body-->
+<body class="bg-dark">
     <div class="wrapper">
         <!--"navbar" indicates to Bootstrap that we want a component that fits across the top of the page -->
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
             <!-- “navbar-brand” is a built-in style from Bootstrap that provides padding and font sizing to the element by default. -->
             <a class="navbar-brand" href="index.html">UFO Sightings</a>
         </nav>
         <div class="jumbotron">
             <!-- Text nested within these tags will have visual enhancements automatically added -->
-            <h1>The Truth Is Out There</h1>
+            <h1 class="display-4">The Truth is Out There</h1>
         </div>
         <div class="container-fluid">
             <div class="row">
@@ -44,17 +45,17 @@
                 <form>
                   <!-- This is where we'll be accepting user input, so we need to use the HTML-specific field: a form -->
                   <p>Filter Search</p>
-                </form>
-                <ul class="list-group">
-                  <li class="list-group-item">
+                </form class="bg-dark">
+                <ul class="list-group bg-dark">
+                  <li class="list-group-item bg-dark">
                       <!-- "list-group." Using this specific class lets Bootstrap apply predetermined styling to the list. We can spruce it up further if we want to after we're done.-->
                       <label for="date">Enter Date</label>
                       <!-- type="text" means that the code will look for text to be input. id="datetime" is what our JavaScript code will look for when the button is clicked and the function is executed.-->
                       <input type="text" placeholder="1/10/2010" id="datetime" />
                   </li>
-                  <li class="list-group-item">
+                  <li class="list-group-item bg-dark">
                       <!-- Add a button-->
-                      <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
+                      <button id="filter-btn" type="button" class="btn btn-dark">Filter Table</button>
                   </li>
                 </ul>
     
