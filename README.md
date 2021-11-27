@@ -1,7 +1,7 @@
 # UFO
 
 ## Overview of the Project
-In this project I created an HTML webpage that will pull data from a javascript array using filters on the page that was created based on date, city, and state. The table was created using Javascript and I used HTML/CSS and Bootstrap to desgin the layout of the page.
+In this project I created an HTML webpage that will pull data from a javascript array using built in filters on the page that was created based on date, city, and state. The table was created using Javascript and I used HTML/CSS and Bootstrap to desgin the layout of the page.
 
 ## Purpose
 1. Implement Javascript functions and built in functions then deploy them
